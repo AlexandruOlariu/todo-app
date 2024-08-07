@@ -1,0 +1,22 @@
+To start the project you should have installed the following tools:
+
+- Node.js
+- php8.3
+- Composer
+
+To start the project you should follow the next steps:
+
+1. Start the backend server:
+   - Go to the backend folder ./be
+   - Run the following commands:
+     - `composer install`
+     - `php artisan serve`
+   - Optionally, you can run the seeders to populate the database with some data:
+     - `php artisan migrate`
+     - `php artisan db:seed`
+2. Start the frontend server:
+   - Go to the frontend folder ./fe
+   - Run the following commands:
+     - `npm install`
+     - `npm start`
+3. Open the browser and go to the following URL: `http://localhost:3000/`
